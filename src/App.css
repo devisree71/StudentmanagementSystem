@@ -1,38 +1,212 @@
-.App {
+* {
+  margin: 0;
+  font-family: sans-serif;
+  
+}
+
+.navbar {
+  background-color: rgb(232, 112, 208);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  color: white;
+  
+}
+.nfpg{
+ 
+  background-image: url("https://th.bing.com/th/id/OIP.5SPJAnkBHZrMyCvhHJ41HgHaEo?pid=ImgDet&rs=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
   text-align: center;
+  padding-top: 76px;
+  
+}
+.nfpg h2{
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.stupg .head{
+  text-decoration: underline;
+}
+.navbar i {
+  color: rgb(9, 9, 9);
+}
+.navbar .navb {
+  width: 90%;
+  display: flex;
+  
+  justify-content: space-between;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .navitem {
+  font-size: 25px;
+  margin-left: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+  align-items: center;
+  margin-top: 9px;
+  color: black;
+  
+}
+.hmpg{
+  background-image: url("https://th.bing.com/th/id/OIP.5SPJAnkBHZrMyCvhHJ41HgHaEo?pid=ImgDet&rs=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+ height: 425px;
+ display: flex;
+}
+.card p{
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card h5{
+  text-align: center;
+
+}
+h5:hover{
+  color: rgb(227, 31, 234);
+  font-size: 20px;
+}
+.card{
+  margin-top: 120px;
+  margin-left: 80px;
+  margin-right: 80px;
+  align-items: center;
+  font-size: 20px;
+  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+  height: 150px;
+  width: 300px;
+}
+.grdpg{
+  font-size: 30px;
+  margin-left: 450px;
+  padding-top: 60px;
+  text-decoration: underline;
+}
+.crpg{
+  font-size: 30px;
+  margin-left: 450px;
+  padding-top: 60px;
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.overview-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navg{
+  background-image: url("https://th.bing.com/th/id/OIP.5SPJAnkBHZrMyCvhHJ41HgHaEo?pid=ImgDet&rs=1");
+  background-size: cover;
+}
+.studentpg {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-image: url("https://th.bing.com/th/id/OIP.5SPJAnkBHZrMyCvhHJ41HgHaEo?pid=ImgDet&rs=1");
+  background-size: cover;
+  justify-content: space-between;
+}
+.studentpg .studentpg2 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+width:200px;
+height: auto;
+padding-left: 20px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  line-height: 2.5;
+  margin-left: 1px;
+}
+
+.students .details {
+  width: 70%;
+ 
+}
+.students .details button {
+  background-color: rgb(124, 19, 114);
+}
+
+.stupg {
+  
+  margin-right: 400px;
+  margin-top: 100px;
+ 
+}
+
+button {
+  padding: 10px 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.form {
+  margin: 1% 20% 1% 20%;
+  padding: 20px 0px;
+  background-image: url("https://th.bing.com/th/id/OIP.5SPJAnkBHZrMyCvhHJ41HgHaEo?pid=ImgDet&rs=1");
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.45);
+  display: flex;
+  background-size: cover;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.form .det {
+  width: 400px;
+  padding: 10px 10px;
+  margin: 3% 0%;
+  border: 1px solid grey;
+}
+.space {
+  margin-right: 10px;
+}
+.form button {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border: none;
   color: white;
+  background-color: rgb(161, 98, 174);
+  border-radius: 4px;
+  margin-bottom: 10%;
+  margin-left: 155px;
+}
+.form img{
+  margin-left: 130px;
+}
+.form h2{
+  margin-left: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.stupg .lb{
+  color: aqua;
+  background-color:rgb(238, 176, 238);
+  text-decoration: none!;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stupg .rb{
+  background-color: aqua;
+  color:rgb(238, 176, 238);
+  text-decoration: none!;
+}
+
+.navb button:hover{
+  box-shadow: 5px 2px 2px 2px springgreen;
 }
